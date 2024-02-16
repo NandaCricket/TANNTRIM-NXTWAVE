@@ -1,0 +1,79 @@
+.navCon {
+  display: flex;
+  justify-content: space-between;
+  color: azure;
+  font-size: 20px;
+  font-family: Courier, monospace;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: black;
+}
+.navCon div {
+  padding: 5px 5px 0px 3px;
+}
+.navTitle {
+  display: flex;
+  font-size: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 0px 2px 0px 2px;
+}
+.navTitle h1 {
+  padding: 0px 3px 0px 2px;
+}
+.listItem {
+  display: flex;
+  justify-content: space-between;
+}
+.t {
+  padding-left: 3px;
+}
+ul li {
+  list-style: none;
+  padding: 0px 10px 0px 10px;
+}
+/* //subNavContainer */
+
+.subNavCon {
+  display: flex;
+  justify-content: center;
+  color: azure;
+  justify-content: space-evenly;
+  padding-left: 0px;
+  padding-right: 200px;
+  padding-top: 60px;
+  font-size: 14px;
+  position: fixed;
+  top: 0;
+
+  font-family: Courier, monospace;
+  width: 100%;
+  background-color: black;
+}
+.tann {
+  letter-spacing: 10px;
+}
+.trim {
+  letter-spacing: 10px;
+}
+/* //Bag IMg container */
+
+div h3 {
+  letter-spacing: 2px;
+}
+.BagImgCon {
+  display: flex;
+  padding: 120px;
+  padding-left: 170px;
+  font-family: Courier, monospace;
+}
+img {
+  padding-left: 20px;
+}
+h5 {
+  color: azure;
+  padding-left: 30px;
+  letter-spacing: 2px;
+}

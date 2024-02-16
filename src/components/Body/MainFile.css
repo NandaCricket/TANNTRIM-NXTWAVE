@@ -1,0 +1,54 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+.mainCon {
+  color: azure;
+  background-color: rgb(57, 34, 34);
+  height: 430px;
+  width: 300px;
+  border-radius: 20px 20px 20px 20px;
+  margin-left: 10px;
+  margin: 15px 15px 15px 25px;
+}
+.image {
+  width: 300px;
+  height: 300px;
+  padding-left: 0px;
+}
+.mainCon h3 {
+  padding-left: 10px;
+}
+.detailsCon {
+  display: flex;
+  justify-content: space-between;
+}
+.subDetails {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lastprice {
+  list-style: none;
+  text-decoration: line-through;
+  padding-right: 10px;
+  font-size: 14px;
+  padding-top: 10px;
+}
+.costList {
+  padding: 0px;
+  font-weight: 20px;
+  font-size: 20px;
+}
+.offer {
+  font-size: 14px;
+  padding-top: 10px;
+  color: rgb(116, 204, 116);
+}
+.spantag {
+  size: 20px;
+  font-size: 20px;
+  height: 40px;
+  width: 40px;
+}
+/* https://github.com/NandaCricket/TANNTRIM-NXTWAVE.git */
